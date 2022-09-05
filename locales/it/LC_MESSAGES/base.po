@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-09-06 00:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: main.py:10
+msgid "Choose your language"
+msgstr "Seleziona la lingua"
+
+#: main.py:21
+msgid "Drawing tool:"
+msgstr "Strumento da disegno:"
+
+#: main.py:24
+msgid "Stroke width: "
+msgstr "Spessore tratto:"
+
+#: main.py:25
+msgid "Stroke color hex: "
+msgstr "Colore tratto:"
+
+#: main.py:26
+msgid "Background color hex: "
+msgstr "Colore background:"
+
+#: main.py:27
+msgid "Background image:"
+msgstr "Carica un'immagine:"
+
+#: main.py:28
+msgid "Number of Steps: "
+msgstr "Numero di iterazioni:"
+
+#: main.py:29
+msgid "Strength value: "
+msgstr "Attinenza all'originale:"
+
+#: main.py:50
+msgid "Prompt to generate your cool image"
+msgstr "Testo di input per iniziare la magia"
+
+#: main.py:51
+msgid "write you text here to improve the image with your favourite style"
+msgstr "Scrivi qui le indicazioni che trasformeranno la tua immagine"
+
