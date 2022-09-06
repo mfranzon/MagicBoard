@@ -6,7 +6,7 @@ Select the number of steps and the strength to generate the final image.
 
 I like minimalism, so for this experiments I try to use a low-code approach. Also lowest time as possible ;)
 
-## Some technicality
+## Some technicalities
 
 The Stable Diffusion model is the latest provided by the diffusers library.
 
