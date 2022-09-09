@@ -1,4 +1,3 @@
-import pandas as pd
 from PIL import Image
 from utils import pipe_image
 import streamlit as st
@@ -25,12 +24,9 @@ stroke_width = st.sidebar.slider(_("Stroke width: "), 1, 25, 3)
 stroke_color = st.sidebar.color_picker(_("Stroke color hex: "))
 bg_color = st.sidebar.color_picker(_("Background color hex: "), "#eee")
 bg_image = st.sidebar.file_uploader(_("Background image:"), type=["png", "jpg"])
-n_steps = st.sidebar.slider(_("Number of Steps: "), 1, 50, 5)
+n_steps = st.sidebar.slider(_("Number of Steps: "), 1, 1000, 10)
 strength = st.sidebar.slider(_("Strength value: "), 0.0, 1.0, 0.1)
-
-#realtime_update = st.sidebar.checkbox("Update in realtime", False)
-
-    
+  
 
 # Create a canvas component
 canvas_result = st_canvas(
@@ -56,8 +52,3 @@ if st.button('Submit'):
                        n_steps=n_steps,
                        strength=strength)
     st.image(image)
-# if canvas_result.json_data is not None:
-#     objects = pd.json_normalize(canvas_result.json_data["objects"]) # need to convert obj to str because PyArrow
-#     for col in objects.select_dtypes(include=['object']).columns:
-#         objects[col] = objects[col].astype("str")
-#     #st.dataframe(objects)
